@@ -1201,6 +1201,18 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "86f0b0d4bf799edbc74508c1e8bf170ff5f41238e5f8225603ca7caaae2b7860"
 
 [[package]]
+name = "open-ai-libsodium"
+version = "0.1.0"
+dependencies = [
+ "actix-rt",
+ "actix-web",
+ "hex",
+ "serde",
+ "serde_json",
+ "sodiumoxide",
+]
+
+[[package]]
 name = "parking_lot"
 version = "0.11.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1400,18 +1412,6 @@ checksum = "11834e137f3b14e309437a8276714eed3a80d1ef894869e510f2c0c0b98b9f4a"
 dependencies = [
  "hostname",
  "quick-error",
-]
-
-[[package]]
-name = "runes"
-version = "0.1.0"
-dependencies = [
- "actix-rt",
- "actix-web",
- "hex",
- "serde",
- "serde_json",
- "sodiumoxide",
 ]
 
 [[package]]
